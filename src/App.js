@@ -1,17 +1,13 @@
-import { useAuth } from "./hooks/useAuth.js";
+import Login from "./pages/Login";
+import Test from "./pages/Test";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  const { user, signout, signInWithGoogle } = useAuth();
   return (
-    <div>
-      {user ? (
-        <button onClick={signout}>Sign out</button>
-      ) : (
-        <>
-          <button onClick={signInWithGoogle}>Login with Google</button>
-        </>
-      )}
-    </div>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/test" element={<Test />} />
+    </Routes>
   );
 }
 
