@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class Home extends Component {
   render() {
     return (
-        <h2>HELP!</h2>
+        <div>HELP!</div>
     );
   }
 }
