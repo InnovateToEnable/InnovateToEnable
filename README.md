@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# InnovateToEnable 💡
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the project
 
-## Available Scripts
+InnovateToEnable is a community of like-minded individuals who share the goal of creating impactful products for people with disabilities. Our aim is to bring together innovators from various backgrounds to collaborate and develop innovative solutions that can improve the lives of people with disabilities.
 
-In the project directory, you can run:
+## Why Innovate for Disabilities
 
-### `npm start`
+People with disabilities often face unique challenges that can limit their ability to fully participate in society. Innovating for Disability aims to address these challenges by fostering a community of individuals who are passionate about creating products that can make a difference in the lives of people with disabilities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How it works
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Innovating for Disability is an open community, and we welcome individuals from all backgrounds to join us. Our goal is to create a space where individuals can share ideas, collaborate on projects, and learn from each other.
 
-### `npm test`
+### Here is how you can get involved
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Share your ideas: Have an innovative idea for a product that can help people with disabilities? Share it with the community and collaborate with others to bring your idea to life.
 
-### `npm run build`
+2. Join a project team: Are you looking to get involved in a specific project? Join a project team and contribute your skills to help bring the project to completion.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Learn from others: Innovating for Disability is a community of individuals with diverse backgrounds and skill sets. Take advantage of this opportunity to learn from others and expand your knowledge and skills.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="center">
+	<code><img height="50" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git" /></code>
+	<code><img height="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub" /></code>
+	<code><img height="50" src="https://user-images.githubusercontent.com/25181517/189715289-df3ee512-6eca-463f-a0f4-c10d94a06b2f.png" alt="Figma" title="Figma" /></code>
+	<code><img height="50" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python" title="Python" /></code>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Collaborators
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Merrickneo](https://github.com/Merrickneo)
+[cleoncheng2000](https://github.com/cleoncheng2000)
+[jiaweilee88](https://github.com/jiaweilee88)
+[kavantan](https://github.com/kavantan)
