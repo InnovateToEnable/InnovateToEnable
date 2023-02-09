@@ -1,7 +1,8 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { doc, getFirestore, runTransaction, setDoc } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
+import { v4 } from "uuid";
 
 const firebaseConfig = {
   apiKey: `${process.env.REACT_APP_API_KEY}`,
@@ -23,3 +24,14 @@ export const googleAuthProvider = new GoogleAuthProvider();
 export const db = getFirestore(app);
 
 export const storage = getStorage(app);
+
+export const createUserDocument = async (user) => {
+  const userRef = doc(db, "users", user.uid);
+
+  await runTransaction(db, async (transaction) => {
+    const sfDoc = await transaction.get(userRef);
+    if (!sfDoc.exists()) {
+      setDoc(userRef, { name: user?.displayName, biography: "", dir: v4() });
+    }
+  });
+};
