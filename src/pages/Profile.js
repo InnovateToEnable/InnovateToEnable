@@ -3,10 +3,13 @@ import { useEffect, useState } from "react";
 import { useAuth } from "../hooks/useAuth";
 import { getDocs, query } from "firebase/firestore";
 import { usersCollectionRef } from "../config/firebase.collections";
+import { useNavigate } from "react-router-dom";
 
 const Profile = () => {
   const { user } = useAuth();
   const [usersData, setUsersData] = useState([]);
+
+  let navigate = useNavigate();
 
   const getUsers = () => {
     const q = query(usersCollectionRef);
@@ -28,7 +31,17 @@ const Profile = () => {
   return (
     <div>
       {usersData.map((userData) => {
-        return userData.id === user.uid && <>{userData.data.name}</>;
+        return (
+          userData.id === user.uid && (
+            <>
+              <div>{userData.data.name}</div>
+              <div>{userData.data.biography}</div>
+              <button onClick={() => navigate("/editprofile")}>
+                Edit profile
+              </button>
+            </>
+          )
+        );
       })}
     </div>
   );
