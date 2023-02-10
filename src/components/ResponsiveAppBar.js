@@ -14,7 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import logo from "../assets/logo.jpeg";
 import { NavLink } from "react-router-dom";
 
-const pages = ["About", "Projects", "Forum", "Users"];
+const pages = ["About", "Projects", "Users"];
 const settings = ["Profile"];
 
 const ResponsiveAppBar = () => {

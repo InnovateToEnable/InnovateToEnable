@@ -1,68 +1,70 @@
-import * as React from "react";
+import React from "react";
 
-export default function MyComponent(props: any) {
+export default function Projects() {
   return (
     <>
-      <div className="div">
-        <div className="builder-columns div-2">
+      <div className="div"></div>
+      <div className="div-2">Project Partners</div>
+      <div className="div-3">
+        <div className="builder-columns div-4">
           <div className="builder-column column">
-            <div className="div-3">
-              <div className="istockphoto-1159741374-612-x-612">
+            <div className="div-5">
+              <a href="https://www.movinc.sg/">
                 <picture>
                   <source
-                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe"
+                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a"
                     type="image/webp"
                   />
                   <img
                     loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe"
-                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F280ce18ba9864d9cb3261588422252fe"
+                    alt="image1"
+                    src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a"
+                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F2487fc8bb78e4f60b89243a05aa2086a"
+                    className="image"
+                  ></img>
+                </picture>
+              </a>
+              <div className="builder-image-sizer image-sizer" />
+            </div>
+          </div>
+          <div className="builder-column column-2">
+            <div className="div-6">
+              <a href="https://enatechhub.com/">
+                <picture>
+                  <source
+                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c"
+                    type="image/webp"
+                  />
+                  <img
+                    loading="lazy"
+                    alt="image2"
+                    src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c"
+                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F9ff2e7624a1f44a2b2602861ef7b756c"
                     className="image"
                   />
                 </picture>
-                <div className="builder-image-sizer image-sizer" />
-              </div>
-              <div className="div-4">
-                <div className="builder-columns div-5">
-                  <div className="builder-column column-2">
-                    <div className="div-6">Partner Projects</div>
-                  </div>
-                </div>
-              </div>
-              <div className="div-7">
-                <picture>
-                  <source
-                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20"
-                    type="image/webp"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20"
-                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff8d5cc4b5ea745c49180d90deb7cdb20"
-                    className="image-2"
-                  />
-                </picture>
-                <div className="builder-image-sizer image-sizer-2" />
-              </div>
+              </a>
+              <div className="builder-image-sizer image-sizer-2" />
             </div>
           </div>
           <div className="builder-column column-3">
-            <div className="div-8">
-              <div className="div-9">
+            <div className="div-7">
+              <a href="https://enablingvillage.sg/assistive-technologies-at-the-enabling-village/">
                 <picture>
                   <source
-                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263"
+                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df"
                     type="image/webp"
                   />
                   <img
                     loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263"
-                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F42cef370720e40a6b580637a26a91263"
-                    className="image-3"
+                    alt="image3"
+                    src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df"
+                    srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3ab27216a3c04c43a70144ed9bf556df"
+                    className="image"
                   />
                 </picture>
-                <div className="builder-image-sizer image-sizer-3" />
-              </div>
+              </a>
+              <div className="builder-image-sizer image-sizer-3" />
             </div>
           </div>
         </div>
@@ -71,13 +73,41 @@ export default function MyComponent(props: any) {
         .div {
           display: flex;
           flex-direction: column;
-          max-width: 1866px;
+          position: relative;
+          margin-top: 20px;
+          line-height: normal;
+          height: auto;
         }
         .div-2 {
           display: flex;
+          flex-direction: row;
+          max-width: 582px;
+          justify-content: flex-start;
+          align-items: flex-start;
+          padding-top: 129px;
+          padding-right: 44px;
+          padding-bottom: 18px;
+          padding-left: 0px;
+          background-color: rgba(255, 255, 255, 1);
+          color: rgba(0, 0, 0, 1);
+          font-size: 80px;
+          letter-spacing: -3%;
+          text-align: left;
+          font-family: "Open Sans", sans-serif;
+          margin-left: -1px;
+          text-decoration: underline;
+        }
+        .div-3 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+        }
+        .div-4 {
+          display: flex;
         }
         @media (max-width: 999px) {
-          .div-2 {
+          .div-4 {
             flex-direction: column;
             align-items: stretch;
           }
@@ -86,7 +116,7 @@ export default function MyComponent(props: any) {
           display: flex;
           flex-direction: column;
           line-height: normal;
-          width: calc(70.17% - 10px);
+          width: calc(33.333333333333336% - 13.333333333333334px);
           margin-left: 0px;
         }
         @media (max-width: 999px) {
@@ -94,27 +124,15 @@ export default function MyComponent(props: any) {
             width: 100%;
           }
         }
-        .div-3 {
-          display: flex;
-          flex-direction: column;
-          max-width: 1310px;
-          justify-content: flex-start;
-          align-items: flex-start;
-          padding-right: 88px;
-          padding-bottom: 114px;
-          padding-left: 20px;
-          background-color: rgba(255, 255, 255, 1);
-        }
-        .istockphoto-1159741374-612-x-612 {
+        .div-5 {
           display: flex;
           position: relative;
           min-width: 20px;
           min-height: 20px;
-          max-width: 154px;
-          width: 154px;
+          max-width: 315px;
         }
         .image {
-          object-fit: cover;
+          object-fit: contain;
           object-position: center;
           position: absolute;
           height: 100%;
@@ -124,35 +142,16 @@ export default function MyComponent(props: any) {
         }
         .image-sizer {
           width: 100%;
-          padding-top: 102.59740259740259%;
+          padding-top: 154.22%;
           pointer-events: none;
           font-size: 0;
-        }
-        .div-4 {
-          display: flex;
-          flex-direction: column;
-          max-width: 602px;
-          margin-top: 12px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
-          padding-left: 10px;
-        }
-        .div-5 {
-          display: flex;
-        }
-        @media (max-width: 999px) {
-          .div-5 {
-            flex-direction: column;
-            align-items: stretch;
-          }
         }
         .column-2 {
           display: flex;
           flex-direction: column;
           line-height: normal;
-          width: calc(101.57% - 0px);
-          margin-left: 0px;
+          width: calc(33.333333333333336% - 13.333333333333334px);
+          margin-left: 20px;
         }
         @media (max-width: 999px) {
           .column-2 {
@@ -160,34 +159,15 @@ export default function MyComponent(props: any) {
           }
         }
         .div-6 {
-          max-width: 582px;
-          color: rgba(0, 0, 0, 1);
-          font-size: 80px;
-          letter-spacing: -3%;
-          text-align: left;
-          font-family: "Open Sans", sans-serif;
-        }
-        .div-7 {
           display: flex;
-          align-self: stretch;
           position: relative;
           min-width: 20px;
           min-height: 20px;
-          max-width: 1217px;
-          margin-top: 12px;
-        }
-        .image-2 {
-          object-fit: contain;
-          object-position: center;
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          top: 0;
-          left: 0;
+          max-width: 308px;
         }
         .image-sizer-2 {
           width: 100%;
-          padding-top: 40.509449465899756%;
+          padding-top: 154.34%;
           pointer-events: none;
           font-size: 0;
         }
@@ -195,7 +175,7 @@ export default function MyComponent(props: any) {
           display: flex;
           flex-direction: column;
           line-height: normal;
-          width: calc(28.98% - 10px);
+          width: calc(33.333333333333336% - 13.333333333333334px);
           margin-left: 20px;
         }
         @media (max-width: 999px) {
@@ -203,38 +183,16 @@ export default function MyComponent(props: any) {
             width: 100%;
           }
         }
-        .div-8 {
+        .div-7 {
           display: flex;
-          flex-direction: column;
-          max-width: 541px;
-          justify-content: flex-start;
-          align-items: flex-end;
-          padding-top: 31px;
-          padding-right: 82px;
-          padding-bottom: 31px;
-          padding-left: 15px;
-          background-color: rgba(255, 255, 255, 1);
-        }
-        .div-9 {
-          display: flex;
-          align-self: stretch;
           position: relative;
           min-width: 20px;
           min-height: 20px;
-          max-width: 371px;
-        }
-        .image-3 {
-          object-fit: contain;
-          object-position: center;
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          top: 0;
-          left: 0;
+          max-width: 320px;
         }
         .image-sizer-3 {
           width: 100%;
-          padding-top: 18.867924528301888%;
+          padding-top: 152.85%;
           pointer-events: none;
           font-size: 0;
         }
