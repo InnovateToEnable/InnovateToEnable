@@ -11,7 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/logo.png";
 import { NavLink } from "react-router-dom";
 
 const pages = ["About", "Projects", "Users"];
@@ -37,7 +37,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar style={{ background: "ffffff" }} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img
