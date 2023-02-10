@@ -15,9 +15,6 @@ const Home = () => {
           <button onClick={signInWithGoogle}>Login with Google</button>
         </>
       )}
-      <button onClick={() => navigate("/about")}>About</button>
-      <button onClick={() => navigate("/forum")}>Forum</button>
-      <button onClick={() => navigate("/profile")}>Profile</button>
     </div>
   );
 };

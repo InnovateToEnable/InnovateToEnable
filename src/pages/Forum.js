@@ -7,7 +7,6 @@ const Forum = () => {
   return (
     <div>
       <h1>Forum</h1>
-      <button onClick={() => navigate("/")}>Back Home</button>
     </div>
   );
 };
