@@ -1,4 +1,4 @@
-# InnovateToEnable 💡
+# EnablePulse 💡
 
 ## About the project
 
