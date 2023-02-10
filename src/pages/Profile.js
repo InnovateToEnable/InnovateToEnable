@@ -30,7 +30,6 @@ const Profile = () => {
 
   return (
     <div>
-      <button onClick={() => navigate("/")}>Back Home</button>
       {usersData.map((userData) => {
         return (
           userData.id === user.uid && (
